@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const sequelize = require('./dbConnect.js');
+const sequelize = require('../dbConnect.js');
 
 const Grade = sequelize.define('Grade',{
      Sno:{

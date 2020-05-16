@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('scoreAdmin', 'root', '19841029Qq',  {//usernamepassword
+const sequelize = new Sequelize('scoreAdmin', 'username', 'password',  {
   host: 'localhost',    //数据库地址,默认本机
   port:'3306',
   dialect: 'mysql',
